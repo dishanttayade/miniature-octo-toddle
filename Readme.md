@@ -8,7 +8,14 @@
     
     - Link for the postman Documentation : https://www.postman.com/dishanttayade1/workspace/dishant-s-assignments/documentation/16019414-c91307dd-e1bd-49f1-99c8-38f232fe7544
 
+### In order to access the database, the toddle.sql file has to be dumped.
+    - sudo mysql
+    - mysql> source toddle.sql
+
+
 ### Instruction to run the application
     - npm install
     - npm start
     - 5000 port must be not in use.
+    
+ 
