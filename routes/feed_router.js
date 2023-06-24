@@ -9,8 +9,8 @@ const {isAuthorizedTutor, isAuthorized} = require('../routes/verify-auth');
 router.use(upload());
 
 const s3 = new AWS.S3({
-    accessKeyId: 'AKIAQ42ODMKWZAEUV5WS',
-    secretAccessKey: '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'
+    accessKeyId: '',
+    secretAccessKey: ''
 })
 
 const uploadToBucket = async(file, locate) => {
